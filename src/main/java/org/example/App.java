@@ -63,6 +63,6 @@ public class App {
         System.out.println("SumOfSquaredErrors score of Clusters: " + calcSumOfSqrErr.score(clusters));
         System.out.println("Cindex score of Clusters: " + calcCindex.score(clusters));
         System.out.println("Gamma score of Clusters: " + calcGamma.score(clusters));
-        System.out.println("AICScore score of Clusters: " + calcAIC.score(clusters));
+        System.out.println("AICScore of Clusters: " + calcAIC.score(clusters));
     }
 }
